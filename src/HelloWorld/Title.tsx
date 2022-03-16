@@ -13,6 +13,7 @@ export const Title: React.FC<{
 				fontFamily: 'SF Pro Text, Helvetica, Arial',
 				fontWeight: 'bold',
 				fontSize: 100,
+				color: '#fff',
 				textAlign: 'center',
 				position: 'absolute',
 				bottom: 160,
@@ -24,7 +25,7 @@ export const Title: React.FC<{
 					<span
 						key={t}
 						style={{
-							color: titleColor,
+							color: 'white',
 							marginLeft: 10,
 							marginRight: 10,
 							transform: `scale(${spring({

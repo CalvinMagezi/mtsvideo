@@ -13,18 +13,18 @@ export const Subtitle: React.FC = () => {
 				position: 'absolute',
 				bottom: 140,
 				width: '100%',
+				color: '#fff',
 				opacity,
 			}}
 		>
-			Edit{' '}
+			MAKING DREAMS{' '}
 			<code
 				style={{
-					color: COLOR_1,
+					color: '#fff',
 				}}
 			>
-				src/Video.tsx
+				REALITY
 			</code>{' '}
-			and save to reload.
 		</div>
 	);
 };
